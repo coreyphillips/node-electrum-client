@@ -1,4 +1,4 @@
-const Client = require("..")
+const Client = require("../lib/electrum_cli")
 
 const proc = async(cl) => {
     try{

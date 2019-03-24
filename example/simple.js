@@ -1,12 +1,7 @@
 const ElectrumClient = require('..')
 
-const peers = require('electrum-host-parse').getDefaultPeers("bitcoin").filter(v => v.ssl)
-const getRandomPeer = () => peers[peers.length * Math.random() | 0]
-
 const main = async () => {
-    const peer = getRandomPeer()
-    console.log('begin connection: ' + JSON.stringify(peer))
-    const ecl = new ElectrumClient(peer.ssl, peer.host, 'ssl')
+    const ecl = new ElectrumClient(995, 'btc.smsys.me', 'tls')
     await ecl.connect()
     try{
         const ver = await ecl.server_version("2.7.11", "1.0")
