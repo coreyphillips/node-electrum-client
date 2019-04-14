@@ -1,32 +1,9 @@
 {
-  "_from": "electrum-client@^0.0.6",
-  "_id": "electrum-client@0.0.6",
-  "_inBundle": false,
-  "_integrity": "sha512-u6B63JbWuufkPr7/DVPfCtMbefeqU+R6oYlwUyiZ7cGMUgbjbJYBk8+wQnJm3K+uXOupoDeyOgVHoFjz5vMwrQ==",
-  "_location": "/electrum-client",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "electrum-client@^0.0.6",
-    "name": "electrum-client",
-    "escapedName": "electrum-client",
-    "rawSpec": "^0.0.6",
-    "saveSpec": null,
-    "fetchSpec": "^0.0.6"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/electrum-client/-/electrum-client-0.0.6.tgz",
-  "_shasum": "f6ad1285a2b2dc25a820ca3eab7c704e350dfcdb",
-  "_spec": "electrum-client@^0.0.6",
-  "_where": "",
   "author": {
-    "name": "Yuki Akiyama"
+    "name": "Corey Phillips"
   },
   "bugs": {
-    "url": "https://github.com/you21979/node-electrum-client/issues"
+    "url": "https://github.com/coreyphillips/node-electrum-client/issues"
   },
   "bundleDependencies": false,
   "dependencies": {},
@@ -38,18 +15,19 @@
   "engines": {
     "node": ">=6"
   },
-  "homepage": "https://github.com/you21979/node-electrum-client#readme",
+  "homepage": "https://github.com/coreyphillips/node-electrum-client#readme",
   "keywords": [
     "client",
     "electrum",
-    "bitcoin"
+    "bitcoin",
+    "nodejs"
   ],
   "license": "MIT",
   "main": "index.js",
   "name": "electrum-client",
   "repository": {
     "type": "git",
-    "url": "git://github.com/you21979/node-electrum-client.git"
+    "url": "git://github.com/coreyphillips/node-electrum-client.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
