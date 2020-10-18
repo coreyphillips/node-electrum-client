@@ -12,6 +12,21 @@
   "devDependencies": {
     "electrum-host-parse": "*"
   },
+  "peerDependencies": {
+    "@photon-sdk/react-native-tcp": "^6.0.0"
+  },
+  "react-native": {
+    "net": "@photon-sdk/react-native-tcp",
+    "tls": "@photon-sdk/react-native-tcp/tls",
+    "crypto": "react-native-crypto",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "vm": "vm-browserify"
+  },
   "engines": {
     "node": ">=6"
   },
@@ -23,6 +38,18 @@
     "nodejs"
   ],
   "license": "MIT",
+  "browser": {
+    "net": "@photon-sdk/react-native-tcp",
+    "tls": "@photon-sdk/react-native-tcp/tls",
+    "crypto": "react-native-crypto",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "vm": "vm-browserify"
+  },
   "main": "index.js",
   "name": "electrum-client",
   "repository": {
